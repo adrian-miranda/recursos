@@ -10,7 +10,7 @@
 // var saludoRecepcionado = saludando();
 // console.log(saludoRecepcionado);
 
-function suma(){
+/* function suma(){
     var sum = 0;
     for(var i = 0 ; i <= 1000 ; i++){
         sum = i++;
@@ -18,5 +18,22 @@ function suma(){
     }
     return sum;
 }
+suma(); */
 
-suma();
+var saludar = "Buen dia Adrian :3";
+function saludo(x){
+    var complementoSaludo = " , hemos aumnetado la <ul><li></ul></li> de logros desbloqueados???";
+    console.log("Un logro mas");
+    return x + complementoSaludo;
+}
+
+var elSaludo = saludo(saludar);
+console.log(elSaludo);
+
+function numero(){
+    console.log(23)
+    return 5;
+}
+
+var elnumero = numero();
+console.log(elnumero);
