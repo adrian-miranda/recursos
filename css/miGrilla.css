@@ -29,7 +29,7 @@ body{
     float: left;
 
 }
-@media only screen and (max-width){
+@media only screen and (max-width: 480px){
     .sd-0   {display: none;}
     .sd-1   {width: 8.3333333%;}
     .sd-2   {width: 16.6666667%;}
