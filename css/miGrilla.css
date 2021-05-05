@@ -1,65 +1,76 @@
 /* Uno Mas!!! */
 /* fuck yeah */
-*{  margin: 0;
+/* Grid_12_columnas; container; container__fluid; row; col; sd-0/12; md-0/12; lg-0/12 */
+/* Reset de * y reset de body */
+*{
+    margin: 0;
     padding: 0;
     outline: 1.7px dotted greenyellow; 
 }
 body{
     box-sizing: border-box;
 }
+.container{
+    display: block;
+    width: 90%;
+    margin: 0px auto;
+    padding: 0px;
+}
+.container__fluid{
+    display: block;
+    width: 100%;
+    margin: 0px auto;
+    padding: 0px;
+}
 .row{
     clear: both;
 }
-.col-md-1,
-.col-md-2,
-.col-md-3,
-.col-md-4,
-.col-md-5,
-.col-md-6,
-.col-md-7,
-.col-md-8,
-.col-md-9,
-.col-md-10,
-.col-md-11,
-.col-md-12{
+.col{
     float: left;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
 }
-.col-md-1{
-    width: 8.3333333%;
+@media only screen and (max-width){
+    .sd-0   {display: none;}
+    .sd-1   {width: 8.3333333%;}
+    .sd-2   {width: 16.6666667%;}
+    .sd-3   {width: 25%;}
+    .sd-4   {width: 33.3333333%;}
+    .sd-5   {width: 41.6666667%;}
+    .sd-6   {width: 50%;}
+    .sd-7   {width: 58.3333333%;}
+    .sd-8   {width: 66.6666666%;}
+    .sd-9   {width:75%;}
+    .sd-10  {width: 83.3333333%;}
+    .sd-11  {width: 91.6666666%;}
+    .sd-12  {width: 100%;}
 }
-.col-md-2{
-    width: 16.6666667%;
+@media only screen and (min-width: 481px) and (max-width:1023px){
+    .md-0   {display: none;}
+    .md-1   {width: 8.3333333%;}
+    .md-2   {width: 16.6666667%;}
+    .md-3   {width: 25%;}
+    .md-4   {width: 33.3333333%;}
+    .md-5   {width: 41.6666667%;}
+    .md-6   {width: 50%;}
+    .md-7   {width: 58.3333333%;}
+    .md-8   {width: 66.6666666%;}
+    .md-9   {width:75%;}
+    .md-10  {width: 83.3333333%;}
+    .md-11  {width: 91.6666666%;}
+    .md-12  {width: 100%;}
 }
-.col-md-3{
-    width: 25%;
-}
-.col-md-4{
-    width: 33.3333333%;
-}
-.col-md-5{
-    width: 41.6666667%;
-}
-.col-md-6{
-    width: 50%;
-}
-.col-md-7{
-    width: 58.3333333%;
-}
-.col-md-8{
-    width: 66.6666666%;
-}
-.col-md-9{
-    width:75%;
-}
-.col-md-10{
-    width: 83.3333333%;
-}
-.col-md-11{
-    width: 91.6666666%;
-}
-.col-md-12{
-    width: 100%;
+@media only screen and (min-width:1024px){
+    .lg-0   {display: none;}
+    .lg-1   {width: 8.3333333%;}
+    .lg-2   {width: 16.6666667%;}
+    .lg-3   {width: 25%;}
+    .lg-4   {width: 33.3333333%;}
+    .lg-5   {width: 41.6666667%;}
+    .lg-6   {width: 50%;}
+    .lg-7   {width: 58.3333333%;}
+    .lg-8   {width: 66.6666666%;}
+    .lg-9   {width:75%;}
+    .lg-10  {width: 83.3333333%;}
+    .lg-11  {width: 91.6666666%;}
+    .lg-12  {width: 100%;}
 }
