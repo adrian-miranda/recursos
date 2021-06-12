@@ -1,0 +1,27 @@
+/*the autocomplete function takes two arguments,the text field element and an array of possible autocompleted values:*/
+/*execute a function when someone writes in the text field:*/
+/*close any already open lists of autocompleted values*/
+/*create a DIV element that will contain the items (values):*/
+/*append the DIV element as a child of the autocomplete container:*/
+/*for each item in the array...*/
+/*check if the item starts with the same letters as the text field value:*/
+/*create a DIV element for each matching element:*/
+/*make the matching letters bold:*/
+/*insert a input field that will hold the current array item's value:*/
+/*execute a function when someone clicks on the item value (DIV element):*/
+/*insert the value for the autocomplete text field:*/
+/*close the list of autocompleted values,(or any other open lists of autocompleted values:*/
+/*execute a function presses a key on the keyboard:*/
+/*If the arrow DOWN key is pressed,increase the currentFocus variable:*/
+/*and and make the current item more visible:*/
+/*If the arrow UP key is pressed,decrease the currentFocus variable:*/
+/*and and make the current item more visible:*/
+//up
+/*If the ENTER key is pressed, prevent the form from being submitted,*/
+/*and simulate a click on the "active" item:*/
+/*a function to classify an item as "active":*/
+/*start by removing the "active" class on all items:*/
+/*add class "autocomplete-active":*/
+/*a function to remove the "active" class from all autocomplete items:*/
+/*close all autocomplete lists in the document, except the one passed as an argument:*/
+/*execute a function when someone clicks in the document:*/
